@@ -1,59 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+section{
+    background: white;
 }
-
-body{
-    background: url('Images/save.jpeg') no-repeat;
-    background-size: cover;
-    color:white;
-}
-
-.registration-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-}
-
-.registration-form h1 {
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px 0;
-}
-
-.registration-form p {
-    font-size: 20px;
-    margin: 15px 0;
-}
-
-.registration-form input {
-    font-size: 16px;
-    padding: 15px 10px;
-    width: 100%;
-    border: 0;
-    border-radius: 5px;
-    outline: none;
-}
-
-.registration-form button {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 15px;
-    width: 50%;
-    border: 0;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-.registration-form button:hover {
-    color: red;
-}
-
 .navbar{
     width: 95%;
     height: auto;
@@ -61,7 +8,7 @@ body{
 }
 
 .logo{
-    color: red;
+    color: black;
     font-size: 40px;
     font-family: cursive;
     float: left;
@@ -103,9 +50,9 @@ ul li a:hover{
 .search-box{
     float: right;
     width: 240px;
-    background: white;
-    height: 30px;
-    padding: 8px;
+    background: red;
+    height: 40px;
+    padding: 4px;
     border-radius: 15px;
     margin-top: 1%;
     margin-right: 2%;
@@ -118,8 +65,8 @@ ul li a:hover{
 
 .search-btn{
     text-decoration: none;
-    background: white;
-    color: black;
+    background: red;
+    color: white;
     display: flex;
     float: right;
     justify-content: center;
@@ -133,7 +80,7 @@ ul li a:hover{
     background: none;
     outline: none;
     float: left;
-    color: black;
+    color: white;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: .6px;
@@ -152,3 +99,4 @@ ul li a:hover{
     color: white;
     font-size: 85px;
 }
+

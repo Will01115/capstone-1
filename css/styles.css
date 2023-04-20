@@ -119,24 +119,22 @@ ul li a:hover{
 }
 
 .btn{
-    color: red;
+    /* opacity: 60%; */
+    background-color: black;
+    color: white;
     padding: 5px 20px;
     font-size: 18px;
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px solid #ce1126 ;
     transition: .3s ease;
     justify-content: center;
 }
 
 .btn:hover{
-    background-color: red;
+    background-color: #ce1126 ;
     color: black;
 }
 
-.paragraphs {
-    margin-top: 15em;
-}
-
-.para{
-    background-color: white;
+.paragraphs text-overlay {
+    background-color: black;
 }
